@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import viteLogo from '/vite.svg'
 import './App.css'
-import { BrowserRouter } from 'react-router-dom'
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Card from './components/Card'
 function App() {
   
 
@@ -10,7 +9,9 @@ function App() {
     <>
       <BrowserRouter>
       <Routes>
+        <Route path ='/' element = {<Card/>}>
 
+        </Route>
       </Routes>
       </BrowserRouter>
     </>
