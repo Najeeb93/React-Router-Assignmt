@@ -10,8 +10,7 @@ function App() {
     <>
       <BrowserRouter>
       <Routes>
-        <Route path ='/' element = {<Card/>}>
-        </Route>
+     <Route path='/' element = {<Card/>}/>
       </Routes>
       </BrowserRouter>
     </>
