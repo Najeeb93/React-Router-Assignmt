@@ -2,11 +2,11 @@ import React from 'react'
 
 export function NewsLetter() {
   return (
-    <div className="mx-auto max-w-7xl px-2 py-10 lg:px-0">
+    <div className="mx-auto max-w-7xl px-2 py-10 lg:px-0 bg-gray-200 rounded-xl">
       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
         <div className="w-full md:w-1/2">
           <h2 className="text-3xl font-bold text-black">Subscribe to our newsletter</h2>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-gray-600 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc
             commodo posuere et sit amet ligula.
           </p>
