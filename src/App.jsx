@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Card from './components/Card'
 import { NewsLetter } from './components/NewsLetter'
 import NotFound from './components/NotFound'
+import Header from './components/Header'
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
     <>
       <BrowserRouter>
       <Routes>
-     <Route path='/' element = {<Card/>}/>
+      <Route path='/' element = {<Header/>}/>
+     <Route path='/card' element = {<Card/>}/>
      <Route path='/abc' element = {<NewsLetter/>}/>
      <Route path='*' element = {<NotFound/> }/>
 
