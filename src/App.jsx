@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Card from './components/Card'
 import { NewsLetter } from './components/NewsLetter'
 import NotFound from './components/NotFound'
-import { NavbarOne } from './components/NavbarOne'
+
 
 function App() {
   
@@ -13,7 +13,6 @@ function App() {
     <>
       <BrowserRouter>
       <Routes>
-      <Route path='/' element = {<NavbarOne/>}/>
      <Route path='/card' element = {<Card/>}/>
      <Route path='/abc' element = {<NewsLetter/>}/>
      <Route path='*' element = {<NotFound/> }/>
