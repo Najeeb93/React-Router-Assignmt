@@ -6,15 +6,15 @@ import React from 'react'
 const menuItems = [
   {
     name: 'Home',
-    href: '#',
+    href: '/cart',
   },
   {
     name: 'About',
     href: '#',
   },
   {
-    name: 'Contact',
-    href: '#',
+    name: 'Products',
+    href: '/product',
   },
   {
     name: 'Blogs',
@@ -31,6 +31,7 @@ export function LandinngPage() {
 
   return (
     <div className="w-full">
+        
       <header className="relative w-full border-b bg-white pb-4">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2">
           <div className="inline-flex items-center space-x-2">
