@@ -8,6 +8,7 @@ import Header from './components/Header'
 import { Products } from './components/Products'
 import { CartOne } from './components/CartOne'
 import { LandinngPage } from './components/LandingPage'
+import ThemeContextProvider from './components/ThemeContext'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <>
+    <ThemeContextProvider>
       <BrowserRouter>
       <Routes>
       <Route path='/' element = {<LandinngPage/>}/>
@@ -26,6 +28,7 @@ function App() {
 
       </Routes>
       </BrowserRouter>
+      </ThemeContextProvider>
     </>
   )
 }
