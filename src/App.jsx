@@ -7,6 +7,7 @@ import NotFound from './components/NotFound'
 import Header from './components/Header'
 import { Products } from './components/Products'
 import { CartOne } from './components/CartOne'
+import { LandinngPage } from './components/LandingPage'
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
     <>
       <BrowserRouter>
       <Routes>
-      <Route path='/' element = {<Products/>}/>
+      <Route path='/' element = {<LandinngPage/>}/>
+      <Route path='/product' element = {<Products/>}/>
       <Route path='/cart' element = {<CartOne/>}/>
      <Route path='/card' element = {<Card/>}/>
      <Route path='/abc' element = {<NewsLetter/>}/>
