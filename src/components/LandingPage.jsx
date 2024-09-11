@@ -1,6 +1,7 @@
 'use client'
 
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeContext } from './ThemeContext'
 
 
 const menuItems = [
@@ -23,6 +24,7 @@ const menuItems = [
 ]
 
 export function LandinngPage() {
+    const themObj = useContext(ThemeContext)
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
 
   const toggleMenu = () => {
