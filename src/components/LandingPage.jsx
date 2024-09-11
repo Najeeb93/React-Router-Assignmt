@@ -154,12 +154,7 @@ export function LandinngPage() {
             </p>
             <form action="" className="mt-8 flex items-start space-x-2">
               <div>
-                <input
-                  className="flex w-full rounded-md border border-black/30 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
-                  type="email"
-                  placeholder="Enter your email"
-                  id="email"
-                ></input>
+              
                 <p className="mt-2 text-sm text-gray-500">We care about your privacy</p>
               </div>
               <div>
