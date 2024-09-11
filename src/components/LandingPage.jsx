@@ -69,11 +69,9 @@ export function LandinngPage() {
               ))}
             </ul>
           </div>
-          <div className="hidden lg:block">
-            <button
-              type="button"
-              className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-            >
+          <div style={{background: theme == 'light'  ? '#fff' : '#333', color: theme === 'light' ? '#000' : '#fff'}}>
+          <p>The current theme is {theme}</p>
+            <button   onClick={SetTheme}>
               Button text
             </button>
           </div>
