@@ -24,7 +24,9 @@ const menuItems = [
 ]
 
 export function LandinngPage() {
-    const themObj = useContext(ThemeContext)
+    const {theme, SetTheme} = useContext(ThemeContext)
+   
+    
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
 
   const toggleMenu = () => {
