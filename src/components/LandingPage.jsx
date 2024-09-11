@@ -6,11 +6,11 @@ import React from 'react'
 const menuItems = [
   {
     name: 'Home',
-    href: '/cart',
+    href: '#',
   },
   {
     name: 'About',
-    href: '#',
+    href: '/abc',
   },
   {
     name: 'Products',
