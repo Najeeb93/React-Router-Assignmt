@@ -1,8 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { CartOne } from './CartOne'
 
 export function Products() {
   return (
+    
     <div> <h1 className='mt-2 text-1xl text-orange-600'>Products</h1>
+    <Link to="/cart"> Click to Cart</Link>
     <div className="mx-auto grid w-full max-w-7xl items-center space-y-4 px-2 py-10 md:grid-cols-2 md:gap-6 md:space-y-0 lg:grid-cols-4">
       {Array.from({ length: 4 }).map((_, i) => (
         <div key={i} className="rounded-md border">
