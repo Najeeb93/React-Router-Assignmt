@@ -6,6 +6,7 @@ import { NewsLetter } from './components/NewsLetter'
 import NotFound from './components/NotFound'
 import Header from './components/Header'
 import { Products } from './components/Products'
+import { CartOne } from './components/CartOne'
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
     <>
       <BrowserRouter>
       <Routes>
-      <Route path='/' element = {<Products/>}/>
+      <Route path='/' element = {<CartOne/>}/>
+      <Route path='/product' element = {<Products/>}/>
      <Route path='/card' element = {<Card/>}/>
      <Route path='/abc' element = {<NewsLetter/>}/>
      <Route path='*' element = {<NotFound/> }/>
