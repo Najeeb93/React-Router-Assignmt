@@ -69,9 +69,9 @@ export function LandinngPage() {
               ))}
             </ul>
           </div>
-          <div style={{background: theme == 'light'  ? '#fff' : '#333', color: theme === 'light' ? '#000' : '#fff'}}>
-          <p>The current theme is {theme}</p>
-            <button   onClick={SetTheme}>
+          <div>
+      
+            <button >
               Button text
             </button>
           </div>
