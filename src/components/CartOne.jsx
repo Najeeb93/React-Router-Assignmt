@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 const products = [
@@ -89,12 +90,12 @@ export function CartOne() {
         </p>
       </div>
       <div className="flex justify-end space-x-4">
-        <button
+      <Link to={"/"}>  <button 
           type="button"
           className="rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
         >
-          Back to shop
-        </button>
+          Back to Home
+        </button></Link>
         <button
           type="button"
           className="rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
